@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "fa36748c-c45a-45d4-a4cd-a593c052cd12",
+		"name": "Maven",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21789131"
+	},
+	"item": [
+		{
+			"name": "{{servidor}}:{{port}}/HolaMundo?nombre=Teresa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{servidor}}:{{port}}/HolaMundo?nombre=Teresa",
+					"host": [
+						"{{servidor}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"HolaMundo"
+					],
+					"query": [
+						{
+							"key": "nombre",
+							"value": "Teresa"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

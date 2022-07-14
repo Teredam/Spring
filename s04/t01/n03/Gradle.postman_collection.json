@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "2c079540-1587-4f39-8ddd-a234299df25c",
+		"name": "Gradle",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21789131"
+	},
+	"item": [
+		{
+			"name": "{{servidor}}:{{port}}/HolaMundo2/Teresa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{servidor}}:{{port}}/HolaMundo2/Teresa",
+					"host": [
+						"{{servidor}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"HolaMundo2",
+						"Teresa"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
